@@ -1,0 +1,30 @@
+.hero {
+    height: 80vh;
+    position: static;
+    overflow: hidden;
+}
+
+#hero-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
