@@ -134,8 +134,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
-# .gitignore に追記（または確認）
-.idea/
-.vs/
-
