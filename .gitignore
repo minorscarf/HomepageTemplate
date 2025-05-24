@@ -139,3 +139,11 @@ dist
 .idea/
 .vs/
 
+# Visual Studio / Rider 系除外
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vscode/
+*.idea/
