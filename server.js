@@ -32,6 +32,7 @@ function serveImagesFrom(folderName) {
 }
 
 app.get('/api/images', serveImagesFrom('main'));
+app.get('/api/Background', serveImagesFrom('Background'));
 app.get('/api/noise-textures', serveImagesFrom('NoiseTexture'));
 app.get('/api/features', serveImagesFrom('features'));
 app.get('/api/portfolio', serveImagesFrom('portfolio'));
